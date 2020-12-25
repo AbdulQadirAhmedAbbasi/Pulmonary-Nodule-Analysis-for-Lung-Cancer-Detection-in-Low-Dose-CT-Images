@@ -1,8 +1,8 @@
 Code Flow:
 
-1) Start with "NodulePatchExtraction.py". This will code will create 3D Patches & Labels (Only Noduels)
+1) Start with "NodulePatchExtraction.py". This code will create 3D Patches & Labels (Only Noduels)
 
-2) Then go with "NonNodulePatchExtraction.py". This will code will create 3D Patches & Labels (Only Non Noduels) 
+2) Then go with "NonNodulePatchExtraction.py". This code will create 3D Patches & Labels (Only Non Noduels) 
 
 3) Followed by "LabelCreartion(Nodules+NOnNodules).py". This code will create a single CSV file having both Nodule & NonNodule Labels
 
@@ -21,9 +21,9 @@ Data Set:
 
 1) Provided data is not ready to be used directly for 3D CNN
 2) We only have 888 CT scans in .mhd format
-3) We only have annotation of only nodules with diamete
+3) We have annotation of only nodules with different diameters
 4) Data preprocessing requires Patch Extraction + Label Creation for both Nodules & Non Nodules 
-5) All preprocessed dataset is present on Dr.Hafeez's System.
+5) All preprocessed dataset is present on Dr.Hafeez's System at National University of Computer & Emerging Sciences.
 
 For Questions:
 
